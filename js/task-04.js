@@ -5,10 +5,10 @@ const valueRef = document.querySelector('#value');
 const counter  = {
     counterValue: 0,
     increment() {
-        this.value += 1;
+        this.counterValue += 1;
     },
     decrement() {
-        this.value -= 1;
+        this.counterValue -= 1;
     },
 };
 
